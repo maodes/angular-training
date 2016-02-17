@@ -1,0 +1,11 @@
+{
+  "name": "angular-training",
+  "version": "1.0.0",
+  "description": "This is for angular training purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Maria Odessa P. Cubar",
+  "license": "ISC"
+}

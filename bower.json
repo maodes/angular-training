@@ -1,0 +1,19 @@
+{
+  "name": "angular-training",
+  "version": "0.0.0",
+  "authors": [
+    "Maria Odessa P. Cubar <tingcute2000@yahoo.com>"
+  ],
+  "description": "This is for angular training purposes",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
