@@ -12,7 +12,8 @@
 			self.nameArr.push( self.addName );
 		}
 
-		self.addNameFn = addNameFn;
+		console.log( config );
+
 	}
 
 	angular.module( 'app' )
