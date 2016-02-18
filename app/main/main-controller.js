@@ -4,7 +4,7 @@
 	function MainCtrl ( ) {
 		var self = this;
 
-		self.name = 'faith';
+		self.name    = 'faith';
 		self.nameArr = [ 'faith', 'gomez' ];
 		self.addName = '';
 
