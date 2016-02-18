@@ -1,0 +1,4 @@
+<div ng-repeat='name in vm.nameArr track by $index'>
+	<name-items name='name'></name-items>
+</div>
+<input type="text" ng-model='vm.addName' ng-change="vm.addNameFn()" ng-model-options="{ debounce: { 'default': 500 } }"> </input>
