@@ -1,15 +1,20 @@
 ( function () {
 	'use strict';
 
-	function MainCtrl ( ) {
+	function MainCtrl ( listFactory ) {
 		var self = this;
 
-		self.name    = 'faith';
-		self.nameArr = [ 'faith', 'gomez' ];
-		self.addName = '';
+		self.firstName   = '';
+		self.lastName    = '';
+		self.listFactory = listFactory;
 
 		function addNameFn () {
-			self.nameArr.push( self.addName );
+			var name = {
+				'firstName' : self.firstName,
+				'lastName'  : self.lastName,
+				'count'     : 0
+			};
+			self.listFactory.getList.push( name );
 		}
 
 		self.addNameFn = addNameFn;
@@ -17,5 +22,7 @@
 
 	angular.module( 'app' )
 		.controller( 'MainCtrl', MainCtrl );
+
+	MainCtrl.$inject = [ 'listFactory'];
 
 } )();

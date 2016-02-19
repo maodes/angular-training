@@ -6,10 +6,9 @@
 	//& - function
 
 	function link ( scope ) {
-		scope.count = 0;
 
 		function increment () {
-			scope.count++;
+			scope.name.count++;
 		}
 
 		scope.increment = increment;
