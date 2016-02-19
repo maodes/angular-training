@@ -10,7 +10,7 @@
 	}
 
 	angular.module( 'app' )
-		.controller( 'NavCtrl', NavCtrl);
+		.controller( 'NavCtrl', NavCtrl );
 
 	NavCtrl.$inject = [ 'pageNav' ];
 

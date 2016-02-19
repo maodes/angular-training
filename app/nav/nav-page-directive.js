@@ -1,15 +1,15 @@
 ( function () {
 	'use strict';
 
-	function nav () {
+	function navList () {
 		return {
 			'templateUrl'  : '/nav/nav.html',
 			'controller'   : 'NavCtrl',
-			'controllerAs' : 'vm'
+			'controllerAs' : 'nc'
 		}
 	}
 
 	angular.module( 'app' )
-		.directive( 'nav', nav );
+		.directive( 'navList', navList );
 
 } )();
