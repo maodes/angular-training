@@ -24,12 +24,11 @@
 		}
 
 		return {
-			'getList': person
+			'getList' : person
 		}
 	}
 
 	angular.module( 'app' )
 		.factory( 'listFactory', listFactory ); // factory
-		// .service( 'listFactory', listFactory ); //service
 
 } )( );

@@ -25,4 +25,4 @@
 
 	MainCtrl.$inject = [ 'listFactory'];
 
-} )();
+} )( );

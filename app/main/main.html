@@ -1,9 +1,9 @@
-<nav>
-	<page-nav></page-nav>
-</nav>
-<div ng-repeat='name in vm.listFactory.getList track by $index'>
-	<name-items name='name'></name-items>
+<div>
+	<nav></nav>
+	<div ng-repeat = 'name in vm.listFactory.getList track by $index'>
+		<name-items name='name'></name-items>
+	</div>
+	<input type = "text" ng-model="vm.firstName"> </input>
+	<input type = "text" ng-model="vm.lastName" > </input>
+	<input type = "button" ng-click="vm.addNameFn()" value= " Add Name"></input>
 </div>
-<input type = "text" ng-model="vm.firstName"> </input>
-<input type = "text" ng-model="vm.lastName" > </input>
-<input type = "button" ng-click="vm.addNameFn()" value = " Add Name"></input>
