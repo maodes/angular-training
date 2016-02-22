@@ -4,6 +4,9 @@
 	//@ - string
 	//= - object, function, boolean
 	//& - function
+	//A - attribute
+	//C - class
+	//E - element
 
 	function link ( scope ) {
 
@@ -18,10 +21,11 @@
 	function nameItems() {
 		return {
 			'scope': {
-				'name': '=' //string
+				'name': ' = ' //string
 			},
 			'templateUrl' : '/main/name-template.html',
-			'link'        : link
+			'link'        : link,
+			'restrict'    : 'A'
 		};
 	}
 

@@ -5,18 +5,7 @@
 		<td>Count</td>
 		<td>Action</td>
 	</tr>
-	<tr ng-repeat = "name in lc.list track by $index">
-		<td>
-			{{ name.firstName }}
-		</td>
-		<td>
-			{{ name.lastName }}
-		</td>
-		<td>
-			{{ name.count }}
-		</td>
-		<td>
-			<button class = "btn btn-default" ng-click='increment()'> Count Up</button>
-		</td>
+	<tr name-items name='name' ng-repeat = "name in lc.list track by $index">
+
 	</tr>
 </table>
