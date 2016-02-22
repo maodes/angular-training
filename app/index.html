@@ -1,7 +1,33 @@
-<html>
+<html ng-app = 'app'>
+	<head>
+		<link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/less/style.css">
+
+	</head>
+
 	<body>
-		<div>Hello</div>
+		<div ui-view></div>
 	</body>
 
-	<script src="/bower_components/angular/angular.js"></script>
+	<script src = "/bower_components/angular/angular.js"></script>
+	<script src = "/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src = "/app.module.js"></script>
+	<script src = "/app.routes.js"></script>
+
+	<script src = "/main/main-controller.js"></script>
+	<script src = "/main/name-items.directive.js"></script>
+
+
+	<script src = "/nav/nav.controller.js"></script>
+	<script src = "/nav/nav-page-directive.js"></script>
+	<script src = "/nav/page-nav.factory.js"></script>
+
+	<script src = "/list/list-name.controller.js"></script>
+	<script src = "/list/list.directive.js"></script>
+	<script src = "/list/list.factory.js"></script>
+	<script src = "/list/name-items.controller.js"></script>
+
+
 </html>
