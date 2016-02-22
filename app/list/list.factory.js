@@ -19,10 +19,6 @@
 			'count'     : 0
 		} ];
 
-		function getList () {
-			return person;
-		}
-
 		return {
 			'getList' : person
 		}

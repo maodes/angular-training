@@ -4,13 +4,13 @@
 	function pageNav () {
 
 		var nav = [ {
-			'state'   : '/home',
+			'state'   : 'main',
 			'navName' : 'HOME'
 		}, {
-			'state'   : '/list',
+			'state'   : 'list',
 			'navName' : 'LIST'
 		}, {
-			'state'   : '/manage',
+			'state'   : 'manage',
 			'navName' : 'MANAGE'
 		} ];
 
