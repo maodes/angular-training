@@ -1,12 +1,13 @@
 <td>
-	{{ name.firstName }}
+	<input type="text" ng-show="vm.edit">
+	<span ng-hide="vm.edit"> {{ name.firstName }} </span>
 </td>
 <td>
-	{{ name.lastName }}
+	<span ng-hide="vm.edit"> {{ name.lastName }} </span>
 </td>
 <td>
-	{{ name.count }}
+	<span ng-hide="vm.edit"> {{ name.count }} </span>
 </td>
 <td>
-	<button class = "btn btn-default" ng-click='increment()'> Count Up</button>
+	<button class = "btn btn-default" ng-click='vm.edit=!vm.edit'> Edit</button>
 </td>
