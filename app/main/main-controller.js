@@ -7,6 +7,7 @@
 		self.firstName   = '';
 		self.lastName    = '';
 		self.listFactory = listFactory;
+		self.showText    = false;
 
 		function addNameFn () {
 			var name = {
