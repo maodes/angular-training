@@ -1,11 +1,13 @@
 <td>
-	<input type="text" ng-show="vm.edit">
+	<input type="text" ng-show="vm.edit" ng-model="name.firstName">
 	<span ng-hide="vm.edit"> {{ name.firstName }} </span>
 </td>
 <td>
+	<input type="text" ng-show="vm.edit" ng-model="name.lastName">
 	<span ng-hide="vm.edit"> {{ name.lastName }} </span>
 </td>
 <td>
+	<input type="text" ng-show="vm.edit" ng-model="name.count">
 	<span ng-hide="vm.edit"> {{ name.count }} </span>
 </td>
 <td>
